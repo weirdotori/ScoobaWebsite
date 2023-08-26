@@ -1,0 +1,528 @@
+/*----------------------------------Header----------------------------------------------*/
+
+body{
+    margin: 0;
+    background-color:  #FEF7A2;
+}
+.header{
+    width: auto;
+    height: auto;
+    border-bottom: 1px solid grey;
+    background-color: #A9D0D8;
+   /*background: linear-gradient(
+        to bottom right,
+        slateblue 5%,
+        paleturquoise 40%,
+        slateblue 100%)*/
+
+}
+.logo{
+    margin-left: 10px;
+    position: relative;
+    top: 30px;
+}
+.logoimg{
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px darkblue;
+    transition: 1s;
+}
+.logoimg:hover{
+    width: 90px;
+    height: 90px;
+}
+.navbar{
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    border: 2px solid #104B4B;
+    border-radius: 20px;
+    box-shadow: 0px 7px 20px darkblue;
+    display: inline;
+    padding: 10px;
+    text-align: center;
+    background-color: #C5EDF6;
+    position: relative;
+    left: 90px;
+    top: -40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: -20px;
+    margin-bottom: -5px;
+}
+.nav{
+    text-decoration: none;
+    color: black;
+    padding-right: 13px;
+    padding-left: 16px;
+    transform: none;
+    transition: 1s;
+}
+.nav:hover{
+    color: #031DCD;
+    font-size: large;
+}
+
+/*--------------------------------Course DropDown-----------------------------------------*/
+.coursedropdownbar{
+    position: relative;
+    display: inline-block;
+}
+.navcourse{
+    text-decoration: none;
+    color: black;
+    padding-right: 19px;
+    padding-left: 20px;
+    transform: none;
+    transition: 1s;
+}
+.navcourse:hover{
+    color: #031DCD;
+    font-size: large;
+}
+.coursedropdown {
+    display: none;
+    position: absolute;
+    background-color: #C5EDF6;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px darkblue;
+    z-index: 1;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.coursedropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #104B4B;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.coursedropdown a:hover {
+    background-color: #A9D0D8;
+    font-size: large;
+}
+
+.coursedropdownbar:hover .coursedropdown {
+    display: block;
+}
+
+
+/*---------------------------------Search Bar and Cart-----------------------------------------------*/
+.searchbaricon{
+    display: inline-block;
+    position: relative;
+    left: 290px;
+    top: -30px;
+    border: 1px solid #104B4B;
+    border-radius: 20px;
+    box-shadow: 10px darkblue;
+    padding: 3px;
+    background-color: #C5EDF6;
+    transition: 1s;
+}
+.searchbaricon:hover{
+    font-size: large;
+}
+.searchbar{
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 17px;
+    padding-right: 5px;
+}
+input[type=textbox] {
+    display: inline-block;
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #104B4B;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px darkblue;
+    font-size: 15px;
+    background-color: #C5EDF6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    transition: 1s;
+    position: relative;
+    left: 300px;
+    top: -40px;
+}
+
+input[type=textbox]:hover {
+    font-size: large;
+  background-color: #A9D0D8;
+}
+.cart{
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    border: 2px solid #104B4B;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px darkblue;
+    display: inline;
+    padding: 10px;
+    text-align: center;
+    background-color: #C5EDF6;
+    position: relative;
+    left: 300px;
+    top: -40px;
+}
+.carticon{
+    text-decoration: none;
+    color: black;
+    transform: none;
+    transition: 1s;
+}
+.carticon:hover{
+    color: #031DCD;
+    font-size: large;
+}
+
+/*---------------------subheader-----------------------------------------*/
+
+.subheader{
+    width: auto;
+    height: auto;
+    border-bottom: 1px solid grey;
+    box-shadow: 0px 7px 10px darkblue;
+    background-color: #C5EDF6;
+}
+.subnavbar{
+    display: inline-block;
+    margin: 10px;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.subnav{
+    text-decoration: none;
+    color: black;
+    padding-right: 30px;
+    position: relative;
+    left: 100px;
+    text-transform: none;
+}
+.subnav:hover{
+    color: #031DCD;
+    font-size: 90%;
+}
+.help{
+    display: inline-block;
+    margin: 10px;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+.helpicon{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 720px;
+}
+.helpicon:hover{
+    color: #031DCD;
+    font-size: 90%;
+}
+
+/*-------------------------footer-------------------------------------*/
+
+.footer{
+    width: auto;
+    height: auto;
+    background-color: #A9D0D8;
+    border-top: 1px solid grey;
+    display: flex;
+}
+.first{
+    width: 40%;
+    height: auto;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    line-height: 2;
+}
+.sitemap{
+    text-decoration: none;
+    color: black;
+}
+.sitemap:hover{
+    color: #031DCD;
+    font-size: 90%;
+}
+.second{
+    width: 30%;
+    height: auto;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    box-sizing: border-box;
+    padding-left: 100px;
+    padding-top: 10px;
+    line-height: 2;
+    padding-bottom: 10px;
+}
+.quicklink{
+    text-decoration: none;
+    color: black;
+}
+.quicklink:hover{
+    color: #031DCD;
+    font-size: 90%;
+}
+.third{
+    width: 30%;
+    height: auto;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    box-sizing: border-box;
+    padding-left: 140px;
+    padding-top: 10px;
+    line-height: 3;
+    padding-bottom: 10px;
+}
+.socialmedia{
+    text-decoration: none;
+    transition: 1s;
+}
+.socialmedia:hover{
+    font-size: xx-large;
+}
+
+/*-------------------------------Certificate Page---------------------------------*/
+
+.certititlebox{
+    width: auto;
+    height: auto;
+    padding-bottom: 30px;
+    padding-top: 40px;
+
+}
+.certificate{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    border: 2px solid #104B4B;
+    border-radius: 30px;
+    display: inline;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    background-color: #C5EDF6;
+    transition: 2s;
+}
+.certificate:hover{
+    font-size: large;
+    color: #2A5B59;
+}
+.certibox{
+    width: auto;
+    height: auto;
+    background-color: ;
+    display: flex;
+    margin: 30px;
+}
+.certiimage{
+    width: 30%;
+    height: auto;
+    border: 0px solid black;
+    padding: 30px;
+}
+.certiimageborder{
+    border: 0px solid darkcyan;
+    border-radius: 20px;
+    box-shadow: 1px 10px 20px darkblue;
+    transition: 2s;
+}
+.certiimageborder:hover{
+    width: 400px;
+    height: 580px;
+}
+.certitext{
+    width: 40%;
+    height: auto;
+    border: 0px solid black;
+    padding: 50px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: center;
+    color: black;
+
+}
+.certitext:hover{
+    color: #2A5B59;
+}
+.certivid{
+    width: 30%;
+    height: auto;
+    border: 0px solid black;
+    padding: 30px;
+}
+.certividborder{
+    border: 0px solid darkcyan;
+    border-radius: 20px;
+    box-shadow: 1px 10px 20px darkblue;
+    background-color: #121864;
+    transition: 2s;
+}
+.certividborder:hover{
+    width: 400px;
+    height: 580px;
+}
+
+.certisamplebox{
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin: 30px;
+}
+.certisampleimage{
+    padding-left: 300px;
+
+}
+.certisampleborder{
+    border: 2px solid black;
+    border-radius: 0px;
+    box-shadow: 1px 10px 20px grey;
+    transition: 2s;
+}
+.certisampleborder:hover{
+    width: 730px;
+    height: 530px;
+}
+.certisampletextbox{
+    width: auto;
+    height: auto;
+    padding-bottom: 30px;
+    padding-top: 40px;
+
+}
+.certisample{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    border: 2px solid #104B4B;
+    border-radius: 30px;
+    display: inline;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    background-color: #C5EDF6;
+    transition: 2s;
+}
+.certisample:hover{
+    font-size: large;
+    color: #2A5B59;
+}
+
+.certicontainer{
+    width: auto;
+    height: auto;
+    margin: 20px;
+    background-color: ;
+    display: flex;
+}
+.bigleft{
+    width: 50%;
+    height: auto;
+    border: 0px solid black;
+    padding: 10px;
+}
+.smalltop1{
+    width: auto;
+    height: 50px;
+    border: 0px solid black;
+    padding: 30px;
+    padding-bottom: 0px;
+    padding-left: 150px;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 0px 10px 20px grey;
+    color: #0B5419;
+}
+.smalltop1:hover{
+    color: #2A5B59;
+}
+.smallbottom1{
+    width: auto;
+    height: 50px;
+    border: 0px solid black;
+    padding-left: 150px;
+}
+.basicbutton{
+    background-color: #C5EDF6;
+  border: 2px solid #104B4B;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+  border-radius: 20px;
+  transition: 2s;
+}
+.basicbutton:hover{
+    font-size: large;
+    color: #2A5B59;
+}
+.bigright{
+    width: 50%;
+    height: auto;
+    border: 0px solid black;
+    padding: 10px;
+}
+.smalltop2{
+    width: auto;
+    height: 50px;
+    border: 0px solid black;
+    padding: 30px;
+    padding-bottom: 0px;
+    padding-left: 200px;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 0px 10px 20px grey;
+    color: #0B5419;
+}
+.smalltop2:hover{
+    color: #2A5B59;
+}
+.smallbottom2{
+    width: auto;
+    height: 50px;
+    border: 0px solid black;
+    padding-left: 250px;
+}
+.certibottomvid{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color:;
+}
+.certibottomvidborder{
+    background-color: #111657;
+    border: 2px solid black;
+    border-radius: 50px;
+    box-shadow: 1px 10px 20px black;
+}
